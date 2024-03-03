@@ -18,7 +18,7 @@
             margin: 10px auto;
             width: 80px;
             height: auto;
-        
+            animation: fadeIn 1s 1.7s backwards;
         }
     }
     nav{
@@ -33,10 +33,12 @@
             font-size: 22px;
             color: #4d4d4e;
             display: block;
+            padding: 5;
             line-height: 51px;
             height: 51px;
             position: relative;
             text-align: none;
+            animation: bounceIn 1s 1.7s backwards;
 
             i{
                 transition: all 0.3s ease-out;
@@ -53,7 +55,7 @@
             }
             &::after{
                 content: "";
-                font-size: 9px;
+                font-size: 12px;
                 letter-spacing: 2px;
                 position: absolute;
                 bottom: 0;
@@ -88,9 +90,10 @@
     }
     ul{
     position: absolute;
-    bottom: 20px;
-    width: 100%;
+    bottom: 40px;
+    width: 80%;
     padding: 0;
+    font-size: 2em;
     // size: 100;
     display: block;
     list-style: none;
@@ -98,7 +101,7 @@
     margin: 0;
     li{
         a{
-            padding: 7px 0;
+            padding: 14px 0;
             display: block;
             font-style: 15px;
             line-height: 16px;
