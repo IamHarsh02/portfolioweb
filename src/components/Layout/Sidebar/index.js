@@ -26,17 +26,17 @@ const Sidebar =()=>(
     </nav>
     <ul>
       <li>
-        <a target='_blank' rel='norefreer' href='https://www.linkedin.com/in/harsh-patare-3259b8219/'>
+        <a  rel='norefreer' href='https://www.linkedin.com/in/harsh-patare-3259b8219/'>
           <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e'/>
         </a>
       </li>
       <li>
-        <a target='_blank' rel='norefreer' href='https://github.com/IamHarsh02'>
+        <a  rel='norefreer' href='https://github.com/IamHarsh02'>
           <FontAwesomeIcon icon={faGithub} color='#4d4d4e'/>
         </a>
       </li>
       <li>
-        <a target='_blank' rel='norefreer' href='https://www.facebook.com/harsh.patare'>
+        <a rel='norefreer' href='https://www.facebook.com/harsh.patare'>
           <FontAwesomeIcon icon={faFacebook} color='#4d4d4e'/>
         </a>
       </li>
