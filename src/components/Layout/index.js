@@ -12,7 +12,8 @@ const Layout=()=>{
         &lt;/body&gt;
         <br/>
         <span className='bottom-tags-html'>&lt;/html,Contaner()&gt;</span>
-        </span>   
+        </span>
+        <div className='lastUpdated'>  Last Update on 06/03/2024</div>   
     </div>
     </div>
 )}

@@ -34,7 +34,6 @@ const Home = ()=>{
                 <Link to="/contact" className="flat-btn">Contact Me </Link>
         
         </div>
-
         </div>
     )
 }

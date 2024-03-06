@@ -37,3 +37,13 @@ font-family:'La Belle Aurore';
     animation: fadeIn 1s forwards;
     animation-duration: 1s;
 }
+.lastUpdated{
+    width: 100%;
+    will-change: contents;
+    height: 90%;
+    min-height: 566px;
+    position: absolute;
+    left: 1010px;
+    top: 598px;
+font-size: 38px;
+}
