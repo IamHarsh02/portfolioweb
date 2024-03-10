@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import React, { useEffect, useState } from "react";
 import './index.scss'
+ import Logo from '../Logo'
 import AnimatedLetters from '../AnimatedLetters';
 const Home = ()=>{
     const [letterClass,setLetterClass]= useState('text-animate')
@@ -32,10 +33,15 @@ const Home = ()=>{
             </h1>
                <h2> A Front End Web/Mobile Developer</h2>
                 <Link to="/contact" className="flat-btn">Contact Me </Link>
+                <div className='last-update'>
+            <h2> Last Updated On: 10/03/2024</h2>
+          </div>
+    
+        </div>
+        <Logo/>
+        </div>
         
-        </div>
-
-        </div>
+      
     )
 }
 export default Home;
